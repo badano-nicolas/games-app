@@ -19,6 +19,7 @@ const FakemonGame = () => {
       };
     }
   }, []);
+  
 
   return (
     <div>
