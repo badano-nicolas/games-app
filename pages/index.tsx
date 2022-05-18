@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import FakemonGame from "../components/fakemon/FakemonGame";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer"
+import Footer from "../components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
       </main>
 
       <footer className="bg-slate-800">
-        <Footer/>
+        <Footer />
       </footer>
     </div>
   );
